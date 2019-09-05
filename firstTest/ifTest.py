@@ -11,7 +11,7 @@ print ("not related to if statement")
 
 print "\n"
 
-if value >= 0:
+if value == 0 or value > 0:
     print "input value is: ", value, "larger than or equal to 0"
     if value == 0:
         print "input value is 0"
