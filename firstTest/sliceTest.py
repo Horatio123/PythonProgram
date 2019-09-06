@@ -10,3 +10,5 @@ print numList[::2]
 print numList[1:5:2]
 print numList[::-2]
 print numList[-1:-5:-2]
+x = slice(0, 2)
+print numList[x]

@@ -13,3 +13,6 @@ print (animals)
 print (animals, age)
 print (len(animals))
 print (max(age))
+print age * 2
+print age.count(12)
+print animals + age
