@@ -9,9 +9,20 @@ class School:
     def get_name(self):
         return self.__name
 
+    def print_name(self):
+        print 'public method:'
+        print self.__name
+        self.__print_private()
+
+    def __print_private(self):
+        print 'private method:'
+        print self.__year
+
 
 chunhui = School('chunhui', 110)
 
 print chunhui.get_name()
-print chunhui.set_name('chunwai')
+chunhui.set_name('chunwai')
 print chunhui.get_name()
+chunhui.print_name()
+chunhui
