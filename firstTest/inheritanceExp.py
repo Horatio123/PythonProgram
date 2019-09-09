@@ -25,8 +25,8 @@ class Triangle(Polygon):
 
 rectangle = Rectangle()
 rectangle.set_value(3, 4)
-print rectangle.area()
+print(rectangle.area())
 
 triangle = Triangle()
 triangle.set_value(3, 4)
-print triangle.area()
+print(triangle.area())
