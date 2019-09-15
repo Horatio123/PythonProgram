@@ -1,0 +1,7 @@
+
+pip --version
+pip search flask
+pip install flask
+pip uninstall flask
+pip show flask
+pip list
